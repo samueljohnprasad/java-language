@@ -6,6 +6,167 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Arraylistt",
+            "request": "launch",
+            "mainClass": "arrays.Arraylistt",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReverseArray",
+            "request": "launch",
+            "mainClass": "arrays.ReverseArray",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumElement",
+            "request": "launch",
+            "mainClass": "arrays.MinimumElement",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ResVsValue",
+            "request": "launch",
+            "mainClass": "arrays.ResVsValue",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - arrayss",
+            "request": "launch",
+            "mainClass": "arrays.arrayss",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - constructors",
+            "request": "launch",
+            "mainClass": "oop1.constructors",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OopExercise",
+            "request": "launch",
+            "mainClass": "OopExercise",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OopExercise",
+            "request": "launch",
+            "mainClass": "oop2.OopExercise",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Polymorphism2",
+            "request": "launch",
+            "mainClass": "oop2.Polymorphism2",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Polymorphism",
+            "request": "launch",
+            "mainClass": "oop2.Polymorphism",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Encapslation2",
+            "request": "launch",
+            "mainClass": "oop2.Encapslation2",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Encapslationn",
+            "request": "launch",
+            "mainClass": "oop2.Encapslationn",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - compositionn",
+            "request": "launch",
+            "mainClass": "oop2.compositionn",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StaticVsInstanceMethodss",
+            "request": "launch",
+            "mainClass": "oop1.StaticVsInstanceMethodss",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StaticVsInstanceMethods",
+            "request": "launch",
+            "mainClass": "oop1.StaticVsInstanceMethods",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Inheritancee",
+            "request": "launch",
+            "mainClass": "oop1.Inheritancee",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Composition",
+            "request": "launch",
+            "mainClass": "oop2.Composition",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StaticVsinstanceVariables",
+            "request": "launch",
+            "mainClass": "oop1.StaticVsinstanceVariables",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StaticVsInstsnce",
+            "request": "launch",
+            "mainClass": "oop1.StaticVsInstsnce",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MethodOverridingVsOverLoading",
+            "request": "launch",
+            "mainClass": "oop1.MethodOverridingVsOverLoading",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Superthis",
+            "request": "launch",
+            "mainClass": "oop1.Superthis",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReferenceObjectClass",
+            "request": "launch",
+            "mainClass": "oop1.ReferenceObjectClass",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - inheritance",
+            "request": "launch",
+            "mainClass": "oop1.inheritance",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - constructors",
             "request": "launch",
             "mainClass": "constructors",

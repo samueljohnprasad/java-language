@@ -1,6 +1,8 @@
+package oop1;
 public class classes {
 
     public static void main(String []aa){
+      //states(fields) and behaviours(methods)
         Car tesla =new Car();
         Car porche=new Car();
 

@@ -1,3 +1,4 @@
+package oop1;
 public class constructors {
 
     public static void main(String aa[]){
@@ -45,7 +46,6 @@ class Accountt{
 
     }
     Accountt(String number,String name,String phoneNumber){
-       
        this(number,99.0,name,phoneNumber);
        System.out.println("constructor with 3 parameters called");
 
@@ -104,8 +104,46 @@ class Accountt{
 
 }
 
-    
+}
+
+//pratice
+class VipPerson{
+    private String name;
+    private double creditLimit;
+    private String email;
+
+
+  private  VipPerson(){
+
+
+    }
+    private  VipPerson(String name,double creditLimit,String email){
+        this.name=name;
+        this.creditLimit=creditLimit;
+        this.email=email;
+      
+
+    }
+    private  VipPerson(String name,double creditLimit){
+        this(name,creditLimit,"sam@Gmail.com");
+      
+
+    }
+
+
+    public String getName(){
+        return this.name;
+  
+      }
+      public double getCredditLimit(){
+        return this.creditLimit;
+  
+      }
+      public String getEmail(){
+        return this.email;
+  
+      }
 
 
 
-  }
+}
