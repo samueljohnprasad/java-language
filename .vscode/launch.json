@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Abstractclasses",
+            "request": "launch",
+            "mainClass": "interfaceabstract.Abstractclasses",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Innerclasses",
+            "request": "launch",
+            "mainClass": "interfaceabstract.Innerclasses",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - interfacechallege",
+            "request": "launch",
+            "mainClass": "interfaceabstract.interfacechallege",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "interfaceabstract.Main",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AutoboxingChallenge",
+            "request": "launch",
+            "mainClass": "arrays.AutoboxingChallenge",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - autoboxing",
+            "request": "launch",
+            "mainClass": "arrays.autoboxing",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArraylistChallenge",
+            "request": "launch",
+            "mainClass": "arrays.ArraylistChallenge",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Arraylistt",
             "request": "launch",
             "mainClass": "arrays.Arraylistt",
