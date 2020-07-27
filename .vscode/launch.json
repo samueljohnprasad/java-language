@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - GenericClass2",
+            "request": "launch",
+            "mainClass": "generics.GenericClass2",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GenericClass",
+            "request": "launch",
+            "mainClass": "generics.GenericClass",
+            "projectName": "java_23abb42a"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Abstractclasses",
             "request": "launch",
             "mainClass": "interfaceabstract.Abstractclasses",

@@ -3,19 +3,20 @@ package generics;
 import java.util.ArrayList;
  
 public class GenericClass {
+
+    public static void main(String aa[]){
     FootballPlayer sam=new FootballPlayer("sam");
     BaseballPlayer john =new BaseballPlayer("john");
     CricketPlayer sammie =new CricketPlayer("sammie");
 
     Team india=new Team("india");
+    india.addPlayer(sam);
     india.addPlayer(john);
+    india.addPlayer(sammie);
 
+    System.out.println(india.numPlayers());
 
-    
-
-
-
-    
+    }
 }
 
 abstract class Player{
@@ -26,7 +27,7 @@ abstract class Player{
 
     }
     public String getName(){
-        return this.name;
+        return name;
     }
 
 
@@ -43,6 +44,8 @@ class FootballPlayer extends Player{
         super(name);
     }
 }
+
+
 class CricketPlayer extends Player{
     public CricketPlayer(String name){
         super(name);
@@ -52,12 +55,16 @@ class CricketPlayer extends Player{
 
 
 
-class Team {
+
+
+
+class Team{
+   
     private String name;
-    private int played;
-    private int won;
-    private int tied;
-    private int lost;
+    private int played=0;
+    private int won=0;
+    private int tied=0;
+    private int lost=0;
 
     private ArrayList<Player> members=new ArrayList<>();
 
@@ -72,7 +79,7 @@ class Team {
 
     public boolean addPlayer(Player player){
         if(members.contains(player)){
-            System.out.println(player.getName()+" is already on this team")
+            System.out.println(player.getName()+" is already on this team");
             return false;
         }else{
             members.add(player);
@@ -82,8 +89,10 @@ class Team {
 
     }
 
+
+
     public int numPlayers(){
-        return members.size();
+        return this.members.size();
     }
 
     public void matchResults(Team opponent,int ourScore,int theirScore ){
@@ -96,7 +105,9 @@ class Team {
 
         }
         played++;
+        if(opponent!=null){
         opponent.matchResults(null,theirScore,ourScore);
+        }
 
     }
     public int ranking(){
